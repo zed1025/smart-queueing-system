@@ -42,6 +42,8 @@
     - Once this productivity problem has been addressed, Mr. Vishwas would like to be able to repurpose the system to address a second issue. The second issue Mr. Vishwas has encountered is that a significant percentage of the semiconductor chips being packaged for shipping have flaws. These are not detected until the chips are used by clients. If these flaws could be detected prior to packaging, this would save money and improve the company's reputation.
     - To be able to detect chip flaws without slowing down the packaging process, the system would need to be able to run inference on the video stream very quickly. Additionally, because there are multiple chip designs—and new designs are created regularly—the system would also need to be flexible so that it can be reprogrammed and optimized to quickly detect flaws in different chip designs.
     - While Naomi Semiconductors has plenty of revenue to install a quality system, this is still a significant investment and they would ideally like it to last for at least 5-10 years.
+  - **Results**
+  [Manurfacturing-output](https://github.com/zed1025/smart-queueing-system/tree/master/gifs/manufacturing.gif)
 - **Scenario 2: Retail Sector**
   - Below is the second scenario. Again, your job is to read through the scenario and figure out which type of hardware might best fit the client's needs.
   - **The Scenario**
@@ -52,6 +54,8 @@
     - Mr. Lin believes this problem can be easily solved by directing people to less-congested queues in the store, and he is interested in using an Edge AI system to do so.
     - Most of the store's checkout counters already have a modern computer, each of which has an Intel i7 core processor. Currently these processors are only used to carry out some minimal tasks that are not computationally expensive.
     - Mr. Lin employs close to 300 employees, including staff that work in transportation, on the store floor, and at the checkout counter. Although the store's annual sales are $7 million in food alone, the net profit is only about 1.1% of this. Mr. Lin also believes in giving fair employment and good wages. He pays his staff with proper salaries, along with substantial bonuses twice a year. As a result, Mr. Lin does not have much money to invest in additional hardware, and also would like to save as much as possible on his electric bill.
+  - **Results**
+[Manurfacturing-output]((https://github.com/zed1025/smart-queueing-system/tree/master/gifs/retail.gif)
 - **Scenario 3: Transportation**
   - Below is the third scenario. Again, your job is to read through the scenario and figure out which type of hardware might best fit the client's needs.
   - **The Scenario**
@@ -60,3 +64,5 @@
     - Currently, this congestion is handled manually by door operators, who help direct passengers to less congested areas during peak time. Ms. Leah would like to automate this using an Edge AI system that would monitor the queues in real-time and quickly direct the crowd in the right manner.
     - In peak hours they currently have over 15 people on average in a single queue outside every door in the Metro Rail. But during non-peak hours, the number of people reduces to 7 people in a single queue. On office hours there is a train every 2 mins. However, on the weekends the time increases to up to 5 mins since some of their drivers work only 5 days a week. 
     - They monitor the entire situation with 7 CCTV cameras on the platform. These are connected to closed All-In-One PCs that are located in a nearby security booth. The CPUs in these machines are currently being used to process and view CCTV footage for security purposes and no significant additional processing power is available to run inference. Ms. Leah's budget allows for a maximum of $300 per machine, and she would like to save as much as possible both on hardware and future power requirements.
+  - **Results**
+[Manurfacturing-output]((https://github.com/zed1025/smart-queueing-system/tree/master/gifs/transportation.gif)
